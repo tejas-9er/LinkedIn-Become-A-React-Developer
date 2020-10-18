@@ -8,7 +8,7 @@ let city = {
 };
 
 ReactDOM.render(
-  <h1>
+  <h1 id = "heading">
     {city.name} is in {city.country}
   </h1>,
   document.getElementById("root")
