@@ -13,16 +13,18 @@ function SkiResort(){
   );
 }
 
-function App(){
-  return (
-    <>
-    <Lake />
-    <SkiResort />
-    </>
-  );
-}
+// function App(){
+//   return (
+//     <>
+//     <Lake />
+//     <SkiResort />
+//     </>
+//   );
+// }
 
 ReactDOM.render(
-  <App />,
+  <>
+  <Lake /> <SkiResort />
+  </>,
   document.getElementById("root")
 );
