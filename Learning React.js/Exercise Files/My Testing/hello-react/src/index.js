@@ -22,14 +22,18 @@ function App(props){
     <div>
       {props.season === "summer" ? (
       <Lake name = "Jenny Lake!" />
-       ) : (
-       <SkiResort name="JHMR!" /> 
+       ) : props.season === "winter" ? (
+        <SkiResort name="JHMR!" />
+        ) : (
+        <h1>
+          Come back in winter or summer
+        </h1>
        )}
     </div>
   );
 }
 
 ReactDOM.render(
-  <App season="winter"/>,
+  <App season="anything"/>,
   document.getElementById("root")
 );
