@@ -8,7 +8,7 @@ function App({items}){
   return  (
   <ul>
     {items.map(item => (
-      <li key={items.toString()}>{item}</li>
+      <li key={item.toString()}>{item}</li>
     ))}
   </ul>
   );
