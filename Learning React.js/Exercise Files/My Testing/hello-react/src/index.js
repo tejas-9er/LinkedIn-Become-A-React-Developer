@@ -25,12 +25,10 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-const [first, second, third] =[
+const [, , fruit] =[
   "Popcorn",
   "Pretzels",
   "Pineapples"
 ];
 
-console.log(first);
-console.log(second);
-console.log(third);
+console.log(fruit);
