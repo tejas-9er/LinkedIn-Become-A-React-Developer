@@ -4,6 +4,8 @@ import './index.css';
 
 function Checkbox(){
   const [checked, setChecked] = useState(false);
+
+  alert(`checked: ${checked.toString()}`);
   return(
   <>
     <input
