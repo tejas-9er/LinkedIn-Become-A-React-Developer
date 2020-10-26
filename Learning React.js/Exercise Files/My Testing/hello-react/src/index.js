@@ -8,11 +8,11 @@ function App(){
 
   useEffect(() => {
     console.log(`field 1: ${val}`);
-  });
+  }, [val]);
 
   useEffect(() => {
     console.log(`field 2: ${val2}`);
-  });
+  }, [val2]);
 
   return(
     <>
